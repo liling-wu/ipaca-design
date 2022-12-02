@@ -231,7 +231,7 @@
             feedback: "No, that\'s not correct."
           },
           {
-            text: "eduneducated, untaught, schooled, unenlighten",
+            text: "eduneducated, untaught, schooled, unenlightend",
             correct: false,
             feedback: "'No, that\'s not correct.'"
           },
