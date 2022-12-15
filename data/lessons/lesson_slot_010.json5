@@ -1,0 +1,531 @@
+// Lesson ev-10
+// a new lesson 10.
+{
+  name: "DESIGN MODEL10",  // the name that's also shown to the users
+  id: "design-model-010",        // an internal id, will never be shown, but important to identify the lesson
+  author: "Davydov Denys, Horbach Myroslava, Pavlo Korzhov, Danylo Gaponov",    // used for documentation, will not be shown to the user
+  version: 9,                 // if you revise your lesson, give it a higher version number each time
+  series: "Academic English",
+  text: "<p>Age of Enlightenment</p>\
+  <p>The period also became known as the Age of Enlightenment for the radical ideas set forth in social\
+   and political areas of life. After the renaissance and humanism of the early-modern period, people\
+    began to ask themselves, ”what does it mean to be a human being?” and ”what rights do human beings have?”\
+     Most of the writing of this time attempts to answer these questions in all aspects of human life.\
+      For example, in religious life, people sought to understand the question of authority: does the established\
+       church control spiritual thinking or must people determine spiritual matters themselves? Since many looked\
+        to the classical philosophy of Greece and Rome for answers on issues of governance and authority, the period\
+         also became known as the Neoclassical period. As people focused on the definition of basic human rights,\
+          they became willing to fight against established authorities to obtain those rights.</p> \
+            <p>Age of Restoration and Revolution</p> \
+            <p>The year 1660 marked the beginning of what is known as ”the long eighteenth century,”\
+             when Charles II returned from exile as the English monarch after twenty years of parliamentary rule.\
+              The English people were the first to attempt a commonwealth republic that eventually fell apart under\
+               the strain of civil war. The American colonies staged their revolution in 1776, culminating in their\
+                independence from British monarchical rule. The French followed, beginning in 1789 with the storming\
+                 of the Bastille in Paris and ending with the execution of King Louis XVI and Queen Marie Antoinette by guillotine in 1793.</p>\
+                 <p>The successful revolutions against some of the most powerful monarchies of Europe spawned similar revolts against tyranny\
+                  all over the world as people began to yearn for freedom.</p> ",
+  text_source: "Written by Karen Dodson",
+  text_licence: "CC BY-SA",
+  text_url: "https://open.umn.edu/opentextbooks/textbooks/compact-anthology-of-world-literature-ii-2022-1236",
+    tasks: [  // the list of tasks for this lesson
+      {
+        // task 1: primary reading task
+        name: "NAME OF TASK 10.R.1",
+        type: "R", // Reading task - options: R = reading, GS = grammar/style, V = vocabulary
+        interaction: "SC", // Single choice task - options: SC = single choice, MC = multiple choice, GAP = select/filling gaps
+        primary: true, // the primary task will be shown first, non-primary tasks are for repetition
+        show_lesson_text: true,  // Shall we show the lesson reading text? true/false
+        question: "How did the neoclassical period appear?",
+        choices: [  // a list of options displayed to be selected (single choice: only one, multiple choice: more than one possible)
+          {
+            text: "people began to give priority to science over religion",
+            correct: false,
+            feedback: "No, that\'s not correct."
+          },
+          {
+            text: "people began to appreciate the classics. ",
+            correct: false,
+            feedback: "No, that\'s not correct."
+          },
+          {
+            text: "сlassical philosophy gained great popularity",
+            correct: true,
+            feedback: "That is correct."
+          },
+        ]
+      },
+      {
+        // task 2: primary reading task
+        name: "NAME OF TASK 10.R.2",
+        type: "R", // Reading task - options: R = reading, GS = grammar/style, V = vocabulary
+        interaction: "SC", // Single choice task - options: SC = single choice, MC = multiple choice, GAP = select/filling gaps
+        primary: true, // the primary task will be shown first, non-primary tasks are for repetition
+        show_lesson_text: true,  // Shall we show the lesson reading text? true/false
+        question: "How did the Age of Enlightenment appear?",
+        choices: [  // a list of options displayed to be selected (single choice: only one, multiple choice: more than one possible)
+          {
+            text: "new ideas appeared in various areas of life.",
+            correct: true,
+            feedback: "That is correct."
+          },
+          {
+            text: "the emergence of this period was influenced by the revolution in France. ",
+            correct: false,
+            feedback: "No, that\'s not correct."
+          },
+          {
+            text: "the appearance of this period was associated with the Crusades. ",
+            correct: false,
+            feedback: "No, that\'s not correct."
+          },
+
+        ]
+      },
+      {
+        // task 3: primary reading task
+        name: "NAME OF TASK 10.R.3",
+        type: "R", // Reading task - options: R = reading, GS = grammar/style, V = vocabulary
+        interaction: "SC", // Single choice task - options: SC = single choice, MC = multiple choice, GAP = select/filling gaps
+        primary: true, // the primary task will be shown first, non-primary tasks are for repetition
+        show_lesson_text: true,  // Shall we show the lesson reading text? true/false
+        question: "What eternal questions do authors try to reveal in their works during the Age of  Enlightenment?",
+        choices: [  // a list of options displayed to be selected (single choice: only one, multiple choice: more than one possible)
+          {
+            text: ".”what is the meaning of faith?” and ”is the coexistence of human and God possible?”",
+            correct: false,
+            feedback: "No, that\'s not correct."
+          },
+          {
+            text: "”what is the meaning of human life?” and ”what are human rights”",
+            correct: true,
+            feedback: "That is correct."
+          },
+          {
+            text: ".”what is the main purpose of existence?” and ”what is the meaning of democracy?” ",
+            correct: false,
+            feedback: "No, that\'s not correct."
+          },
+        ]
+      },
+      {
+        // task 4: primary reading task
+        name: "NAME OF TASK 10.R.4",
+        type: "R", // Reading task - options: R = reading, GS = grammar/style, V = vocabulary
+        interaction: "SC", // Single choice task - options: SC = single choice, MC = multiple choice, GAP = select/filling gaps
+        primary: true, // the primary task will be shown first, non-primary tasks are for repetition
+        show_lesson_text: true,  // Shall we show the lesson reading text? true/false
+        question: "What marked the beginning of  ”the long eighteenth century” ",
+        choices: [  // a list of options displayed to be selected (single choice: only one, multiple choice: more than one possible)
+          {
+            text: "civil war in Spain.",
+            correct: false,
+            feedback: "No, that\'s not correct."
+          },
+          {
+            text: "the return of Charles II",
+            correct: true,
+            feedback: "That is correct."
+          },
+          {
+            text: "the american revolution.",
+            correct: false,
+            feedback: "No, that\'s not correct."
+          },
+        ]
+      },
+      {
+        // task 5: primary reading task
+        name: "NAME OF TASK 10.R.5",
+        type: "R", // Reading task - options: R = reading, GS = grammar/style, V = vocabulary
+        interaction: "SC", // Single choice task - options: SC = single choice, MC = multiple choice, GAP = select/filling gaps
+        primary: true, // the primary task will be shown first, non-primary tasks are for repetition
+        show_lesson_text: true,  // Shall we show the lesson reading text? true/false
+        question: "How did King Louis XVI and Queen Marie Antoinette die?",
+        choices: [  // a list of options displayed to be selected (single choice: only one, multiple choice: more than one possible)
+          {
+            text: "they were hanged in the centre of Paris. ",
+            correct: false,
+            feedback: "No, that\'s not correct."
+          },
+          {
+            text: "they were executed on the guillotine.",
+            correct: true,
+            feedback: "That is correct."
+          },
+          {
+            text: "they were poisoned.",
+            correct: false,
+            feedback: "No, that\'s not correct."
+          },
+        ]
+      },
+      {
+        // task 6
+        name: "NAME OF TASK 10.V.1",
+        type: "V", // Reading task - options: R = reading, GS = grammar/style, V = vocabulary
+        interaction: "SC", // Single choice task - options: SC = single choice, MC = multiple choice, GAP = select/filling gaps
+        primary: true, // the primary task will be shown first, non-primary tasks are for repetition
+        show_lesson_text: false,  // Shall we show the lesson reading text? true/false
+        question: "<p>The underlined word set forth could best be replaced by which of the following:</p>",
+        choices: [  // a list of options displayed to be selected (single choice: only one, multiple choice: more than one possible)
+          {
+            text: "exhibited  ",
+            correct: false,
+            feedback: "No, that\'s not correct."
+          },
+          {
+            text: "expressed",
+            correct: true,
+            feedback: "That is correct."
+          },
+          {
+            text: "outlined",
+            correct: false,
+            feedback: "No, that\'s not correct."
+          },
+          {
+            text: "observed",
+            correct: false,
+            feedback: "No, that\'s not correct."
+          },
+        ]
+      },
+      {
+        // task 7
+        name: "NAME OF TASK 10.V.2",
+        type: "V", // Reading task - options: R = reading, GS = grammar/style, V = vocabulary
+        interaction: "SC", // Single choice task - options: SC = single choice, MC = multiple choice, GAP = select/filling gaps
+        primary: true, // the primary task will be shown first, non-primary tasks are for repetition
+        show_lesson_text: false,  // Shall we show the lesson reading text? true/false
+        question: "<p>The underlined word attempts could best be replaced by which of the following:</p>",
+        choices: [  // a list of options displayed to be selected (single choice: only one, multiple choice: more than one possible)
+          {
+            text: "endeavours",
+            correct: true,
+            feedback: "That is correct."
+          },
+          {
+            text: "performs",
+            correct: false,
+            feedback: "No, that\'s not correct."
+          },
+          {
+            text: "express",
+            correct: false,
+            feedback: "'No, that\'s not correct.'"
+          },
+          {
+            text: "conveys",
+            correct: false,
+            feedback: "'No, that\'s not correct.'"
+          },
+        ]
+      },
+      {
+        // task 8
+        name: "NAME OF TASK 10.V.3",
+        type: "V", // Reading task - options: R = reading, GS = grammar/style, V = vocabulary
+        interaction: "SC", // Single choice task - options: SC = single choice, MC = multiple choice, GAP = select/filling gaps
+        primary: true, // the primary task will be shown first, non-primary tasks are for repetition
+        show_lesson_text: false,  // Shall we show the lesson reading text? true/false
+        question: "<p>The underlined word question could best be replaced by which of the following:</p>",
+        choices: [  // a list of options displayed to be selected (single choice: only one, multiple choice: more than one possible)
+          {
+            text: "issue ",
+            correct: true,
+            feedback: "That is correct."
+          },
+          {
+            text: "hunch",
+            correct: false,
+            feedback: "No, that\'s not correct."
+          },
+          {
+            text: "purpose",
+            correct: false,
+            feedback: "No, that\'s not correct."
+          },
+          {
+            text: "motive",
+            correct: false,
+            feedback: "No, that\'s not correct."
+          },
+        ]
+      },
+      {
+        // task 9
+        name: "NAME OF TASK 10.V.4",
+        type: "V", // Reading task - options: R = reading, GS = grammar/style, V = vocabulary
+        interaction: "SC", // Single choice task - options: SC = single choice, MC = multiple choice, GAP = select/filling gaps
+        primary: true, // the primary task will be shown first, non-primary tasks are for repetition
+        show_lesson_text: false,  // Shall we show the lesson reading text? true/false
+        question: "<p>The underlined word since could best be replaced by which of the following:</p>",
+        choices: [  // a list of options displayed to be selected (single choice: only one, multiple choice: more than one possible)
+          {
+            text: "by dint of",
+            correct: false,
+            feedback: "No, that\'s not correct."
+          },
+          {
+            text: "via ",
+            correct: false,
+            feedback: "No, that\'s not correct."
+          },
+          {
+            text: "in as much as ",
+            correct: true,
+            feedback: "That is correct."
+          },
+          {
+            text: "otherways ",
+            correct: false,
+            feedback: "No, that\'s not correct."
+          },
+        ]
+      },
+      {
+        // task 10
+        name: "NAME OF TASK 10.V.5",
+        type: "V", // Reading task - options: R = reading, GS = grammar/style, V = vocabulary
+        interaction: "SC", // Single choice task - options: SC = single choice, MC = multiple choice, GAP = select/filling gaps
+        primary: true, // the primary task will be shown first, non-primary tasks are for repetition
+        show_lesson_text: false,  // Shall we show the lesson reading text? true/false
+        question: "<p>The underlined word fell apart could best be replaced by which of the following:</p>",
+        choices: [  // a list of options displayed to be selected (single choice: only one, multiple choice: more than one possible)
+          {
+            text: "collapsed   ",
+            correct: true,
+            feedback: "That is correct."
+          },
+          {
+            text: "flunked   ",
+            correct: false,
+            feedback: "No, that\'s not correct."
+          },
+          {
+            text: "succumbed   ",
+            correct: false,
+            feedback: "No, that\'s not correct."
+          },
+          {
+            text: "surrendered  ",
+            correct: false,
+            feedback: "No, that\'s not correct."
+          },
+        ]
+      },
+      {
+        // task 10
+        name: "NAME OF TASK 10.V.6",
+        type: "V", // Reading task - options: R = reading, GS = grammar/style, V = vocabulary
+        interaction: "SC", // Single choice task - options: SC = single choice, MC = multiple choice, GAP = select/filling gaps
+        primary: true, // the primary task will be shown first, non-primary tasks are for repetition
+        show_lesson_text: false,  // Shall we show the lesson reading text? true/false
+        question: "<p>The underlined word strain  could best be replaced by which of the following:</p>",
+        choices: [  // a list of options displayed to be selected (single choice: only one, multiple choice: more than one possible)
+          {
+            text: "pressure  ",
+            correct: true,
+            feedback: "That is correct."
+          },
+          {
+            text: "bend",
+            correct: false,
+            feedback: "No, that\'s not correct."
+          },
+          {
+            text: "ply",
+            correct: false,
+            feedback: "No, that\'s not correct."
+          },
+          {
+            text: "buttonhole",
+            correct: false,
+            feedback: "No, that\'s not correct."
+          },
+        ]
+      },
+      {
+        // task 10
+        name: "NAME OF TASK 10.V.7",
+        type: "V", // Reading task - options: R = reading, GS = grammar/style, V = vocabulary
+        interaction: "SC", // Single choice task - options: SC = single choice, MC = multiple choice, GAP = select/filling gaps
+        primary: true, // the primary task will be shown first, non-primary tasks are for repetition
+        show_lesson_text: false,  // Shall we show the lesson reading text? true/false
+        question: "<p>The underlined word revolts could best be replaced by which of the following:</p>",
+        choices: [  // a list of options displayed to be selected (single choice: only one, multiple choice: more than one possible)
+          {
+            text: "invasions",
+            correct: false,
+            feedback: "No, that\'s not correct."
+          },
+          {
+            text: "marches",
+            correct: false,
+            feedback: "No, that\'s not correct."
+          },
+          {
+            text: "campaigns",
+            correct: false,
+            feedback: "No, that\'s not correct."
+          },
+          {
+            text: "uprisings",
+            correct: true,
+            feedback: "That is correct."
+          },
+        ]
+      },
+      {
+        // task 11: gap filling for main tenses
+        name: "Modal Verbs 10.GS.1",
+        type: "GS",
+        interaction: "GAP",
+        primary: true,
+        show_lesson_text: false,
+        question: "<p>Choose the correct verb tenses to complete the sentences below:</p>\
+        <p>People began to ask themselves, what  _1_ to be a human being?</p>",
+        gaps: {
+          mode: 'select',
+          _1_: [
+            {
+              text: 'did it mean',
+              correct: false,
+              feedback: 'No, that\'s not correct.'
+            },
+            {
+              text: 'does it mean',
+              correct: true,
+              feedback: 'That is correct.'
+            },
+            {
+              text: 'will it mean',
+              correct: false,
+              feedback: 'No, that\'s not correct.'
+            },
+          ],
+        },
+      },
+      {
+        // task 12: gap filling for main tenses
+        name: "Modal Verbs 10.GS.2",
+        type: "GS",
+        interaction: "GAP",
+        primary: true,
+        show_lesson_text: false,
+        question: "<p>Choose the correct verb tenses to complete the sentences below:</p>\
+        <p>Most of the writing of this time  _1_ to answer these questions.</p>",
+        gaps: {
+          mode: 'select',
+          _1_: [
+            {
+              text: "attempts",
+              correct: true,
+              feedback: "That is correct."
+            },
+            {
+              text: "attempt",
+              correct: false,
+              feedback: 'No, that\'s not correct.'
+            },
+            {
+              text: "attempted",
+              correct: false,
+              feedback: 'No, that\'s not correct.'
+            },
+          ],
+        },
+      },
+      {
+        // task 12: gap filling for main tenses
+        name: "Modal Verbs 10.GS.3",
+        type: "GS",
+        interaction: "GAP",
+        primary: true,
+        show_lesson_text: false,
+        question: "<p>Choose the correct verb tenses to complete the sentences below:</p>\
+        <p>People   _1_ to understand the question of authority.</p>",
+        gaps: {
+          mode: 'select',
+          _1_: [
+            {
+              text: "have been seeking",
+              correct: false,
+              feedback: 'No, that\'s not correct.'
+            },
+            {
+              text: "were seeking",
+              correct: false,
+              feedback: 'No, that\'s not correct.'
+            },
+            {
+              text: "sought",
+              correct: true,
+              feedback: "That is correct."
+            },
+          ],
+        },
+      },
+      {
+        // task 12: gap filling for main tenses
+        name: "Modal Verbs 10.GS.4",
+        type: "GS",
+        interaction: "GAP",
+        primary: true,
+        show_lesson_text: false,
+        question: "<p>Choose the correct verb tenses to complete the sentences below:</p>\
+        <p>Since many  _1_ to the classical philosophy of Greece and Rome for answers on issues of governance and authority.</p>",
+        gaps: {
+          mode: 'select',
+          _1_: [
+            {
+              text: "looked ",
+              correct: true,
+              feedback: "That is correct."
+            },
+            {
+              text: "was looking ",
+              correct: false,
+              feedback: 'No, that\'s not correct.'
+            },
+            {
+              text: "were looking ",
+              correct: false,
+              feedback: 'No, that\'s not correct.'
+            },
+          ],
+        },
+      },
+      {
+        // task 15: gap filling for main tenses
+        name: "Modal Verbs 10.GS.5",
+        type: "GS",
+        interaction: "GAP",
+        primary: true,
+        show_lesson_text: false,
+        question: "<p>Choose the correct verb tenses to complete the sentences below:</p>\
+        <p>The successful revolutions against some of the most powerful monarchies of Europe   _1_ similar revolts against tyranny all over the world.</p>",
+        gaps: {
+          mode: 'select',
+          _1_: [
+            {
+              text: 'have spawned',
+              correct: true,
+              feedback: 'That is correct.'
+            },
+            {
+              text: 'had spawned ',
+              correct: false,
+              feedback: 'No, that\'s not correct.'
+            },
+            {
+              text: 'spawned ',
+              correct: false,
+              feedback: 'No, that\'s not correct.'
+            },
+          ],
+        },
+      }
+    ] // end of tasks
+} // end of lesson
